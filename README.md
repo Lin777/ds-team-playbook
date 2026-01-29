@@ -1,7 +1,5 @@
 # DS Team Playbook
 
-![DS Team Playbook](docs/assets/playbook-cover.png)
-
 > Cómo trabajo y cómo lidero equipos de Data Science.
 
 🔗 **Explora el playbook (versión web)**  
@@ -14,6 +12,8 @@ que mejor me han funcionado trabajando y liderando equipos de Data Science.
 
 No es teoría.
 Es experiencia aplicada.
+
+![DS Team Playbook](docs/assets/playbook-cover.png)
 
 Aquí encontrarás cómo abordo:
 
