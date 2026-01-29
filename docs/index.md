@@ -1,4 +1,6 @@
-# DS Team Playbook 🧛‍♂️📘
+# DS Team Playbook 🪄🧝🏻‍♀️📘
+
+![DS Team Playbook](assets/playbook-cover.png)
 
 Bienvenido/a. Este sitio es una colección de **prácticas, convenciones y decisiones** que usaría (y he aprendido a valorar) liderando equipos de Data Science.
 
