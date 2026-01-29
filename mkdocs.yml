@@ -1,5 +1,65 @@
 site_name: DS Team Playbook
+site_description: How I build and scale Data Science teams (without unnecessary pain)
+site_author: Evelyn Cusi
 
+repo_url: https://github.com/Lin777/ds-team-playbook
+repo_name: Lin777/ds-team-playbook
 
 theme:
-    name: dracula
+  name: material
+  language: es
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+
+  - Playbook:
+    - Fundamentos:
+        - Visión y principios: playbook/01-vision-y-principios.md
+        - Onboarding: playbook/02-onboarding.md
+
+    - Forma de trabajar:
+        - Entornos y dependencias: playbook/03-entornos-y-dependencias.md
+        - Estructura de proyectos: playbook/04-estructura-de-proyectos.md
+        - Estándares de código: playbook/05-estandares-de-codigo.md
+        - Git y colaboración: playbook/06-git-y-forma-de-trabajar.md
+
+    - Calidad y ciclo de vida:
+        - Calidad, testing y CI: playbook/07-calidad-testing-y-ci.md
+        - Experimentación y trazabilidad: playbook/08-experimentacion-y-trazabilidad.md
+        - ML lifecycle y producción: playbook/09-ml-lifecycle-y-produccion.md
+
+    - Equipo y responsabilidad:
+        - Rituales y feedback: playbook/10-rituales-feedback-y-crecimiento.md
+        - Seguridad y privacidad: playbook/11-seguridad-privacidad-y-responsabilidad.md
+
+  - Decisiones técnicas (ADRs):
+      - Qué es un ADR y cuándo usarlo: adr/README.md
+      - ADR-0001 · Usar uv: adr/0001-use-uv.md
+
+  - Templates:
+      - Cómo usar los templates: docs-templates/README.md
+      - ADR template: docs-templates/adr-template.md
+      - Experiment report template: docs-templates/experiment-report-template.md
+      - Model card template: docs-templates/model-card-template.md
+      - Pull request template: docs-templates/pull_request_template.md
+
+  - Futuro:
+      - Próximos temas: futuro.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji
