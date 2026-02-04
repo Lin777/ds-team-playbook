@@ -2,3 +2,8 @@
 .venv
 __pycache__
 
+# folders
+*overrides
+*stylesheets
+*scripts
+*index_html.md

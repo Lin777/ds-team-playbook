@@ -7,17 +7,23 @@ repo_name: Lin777/ds-team-playbook
 
 theme:
   name: material
+  custom_dir: overrides
   language: es
   features:
+    - navigation.tabs          # Navbar arriba con secciones
+    - navigation.tabs.sticky   # Navbar fija al hacer scroll (opcional)
     - navigation.sections
     - navigation.expand
     - navigation.instant
     - navigation.tracking
     - navigation.top
-    - toc.integrate
+    - navigation.footer 
     - content.code.copy
     - search.suggest
     - search.highlight
+
+extra_css:
+  - stylesheets/home.css
 
 nav:
   - Home: index.md
@@ -63,3 +69,36 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.emoji
+
+copyright: Copyright © 2025 Evelyn Cusi
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Lin777
+      name: GitHub
+    # agrega más si quieres:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/evelyn-cusi-lopez/
+  generator: true   # si lo quieres mostrar (en la doc aparece)
+
+
+extra:
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+    feedback:
+      title: ¿Te fue útil esta página?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Sí, fue útil
+          data: 1
+          note: >-
+            ¡Gracias por tu feedback!
+        - icon: material/emoticon-sad-outline
+          name: No mucho
+          data: 0
+          note: >-
+            ¡Gracias! ¿Qué faltó? Puedes abrir un issue:
+            <a href="https://github.com/Lin777/ds-team-playbook/issues/new?title=[Feedback]+{title}+-+{url}"
+               target="_blank" rel="noopener">dejar feedback</a>.
