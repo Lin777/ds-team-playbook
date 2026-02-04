@@ -7,7 +7,7 @@ repo_name: Lin777/ds-team-playbook
 
 theme:
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   language: es
   features:
     - navigation.tabs          # Navbar arriba con secciones
